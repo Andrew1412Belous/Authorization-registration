@@ -1,0 +1,77 @@
+.buttons-wrapper {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.buttons-wrapper button {
+    display: block;
+    width: 128px;
+    margin: 8px 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: solid #bbb 1px;
+    font-size: 16px;
+    color: #777;
+    cursor: pointer;
+}
+
+input#login, input#password {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: solid #ddd 1px;
+    color: #999;
+    display: block;
+    margin: 8px auto;
+    outline-color: #aaa;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 8px auto;
+    color: #999;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 320px;
+    box-shadow: 4px 4px 8px #0005;
+    border: solid #ddd 1px;
+    border-radius: 4px;
+    background: #fbfbfb;
+    padding: 16px; 
+}
+
+#picture {
+    width: 240px;
+    display: block;
+    margin: 4px auto;
+}
+
+button {
+    display: block;
+    margin: 8px auto;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: solid #bbb 1px;
+    font-size: 16px;
+    color: #777;
+}
+
+h5 {
+    font-family: Arial, sans-serif;
+    color: #777;
+    text-align: center;
+}
+
+#message {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 16px 0 16px 0;
+}
